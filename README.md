@@ -3,27 +3,21 @@
 # Expression Converter
 This Dart library provides functions to convert between postfix and prefix expressions.
 
-# usage
-
-Import:
-
-# Dart
+# Import:
 import 'expression_converter.dart';
 Use the code carefully. Learn more
 Create an Instance:
 
-# Dart
 ExpressionConverter converter = ExpressionConverter();
 Use the code carefully. Learn more
 Conversion Methods:
-
-# Dart
 String postfixResult = converter.postfixToPrefix("ab+c-def^^*g/");
 print("Postfix to Prefix: $postfixResult");
 
 String prefixResult = converter.prefixToPostfix("/*-+abc^d^efg");
 print("Prefix to Postfix: $prefixResult");
-Use the code carefully. Learn more
+Use the code carefully.
+
 # Example:
 
 Refer to the main.dartfile for a complete example usage.
